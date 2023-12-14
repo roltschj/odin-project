@@ -1,0 +1,26 @@
+/* Method 1: descendant type selectors */
+
+/* div p {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+} */
+
+/* Method 2: descendant class selectors */
+
+/* .container .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}  */
+
+/* Method 3: class selector descends from type selector */
+
+.container p {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
